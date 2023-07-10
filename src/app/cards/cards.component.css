@@ -1,0 +1,38 @@
+.cards {
+  display: flex;
+  gap: 100px;
+  overflow: hidden;
+  /*width: 100%;*/
+}
+
+.part-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.card {
+  display: flex;
+  height: 130px;
+  width: 230px;
+  background: #121f30;
+  border-radius: 8px;
+  /* border: 1px solid white;    */
+  box-shadow: 8px -9px 20px 4px rgba(16, 61, 92, 0.406), -19px 26px 27px 13px #0d1521;
+  overflow: hidden;
+  transform: rotate(-45deg);
+}
+
+.liner {
+  height: 35px;
+  width: 255px;
+  background: #0d1727a8;
+  margin-top: 17px;
+  box-shadow: 2px 9px 9px -5px rgba(105, 240, 175, 0.288);
+  transition: background-color 0.7s;
+  border-radius: 3px;
+}
+
+.card:hover .liner{
+  background: rgba(105, 240, 175, 0.187);
+}
